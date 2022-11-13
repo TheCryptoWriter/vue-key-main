@@ -1,0 +1,495 @@
+ul.sidebar-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar-menu li a span {
+    margin-right: 20px;
+    color: #666;
+}
+
+.sidebar-menu h3 {
+    font-weight: 500;
+    font-size: 17.5px;
+    line-height: 21px;
+    color: inherit;
+}
+
+.sidebar-menu li p span {
+    margin-right: 20px;
+    color: #666;
+}
+
+.sidebar-menu li a {
+    background-color: #fff;
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 25.2px;
+    color: #333;
+}
+
+    .sidebar-menu li a:hover {
+        background-color: #07afc7;
+        padding: 20px 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+
+.sidebar-menu li p {
+    background-color: #fff;
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 25.2px;
+    color: #666666;
+}
+
+    .sidebar-menu li p:hover {
+        background-color: #07afc7;
+        padding: 20px 25px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+
+.sidebar-menu-fixed {
+    width: 260px;
+    margin-top: 24px;
+    position: fixed;
+    top: 80px;
+}
+
+li.have-children ul {
+    padding: 0px;
+}
+
+    li.have-children ul li a {
+        background-color: #eeeeee;
+        padding-left: 62px;
+    }
+
+        li.have-children ul li a:hover {
+            color: #fff;
+            background-color: #07afc7;
+            padding-left: 62px;
+        }
+
+li.have-children, li {
+    position: relative;
+}
+
+.have-children span::after {
+    position: absolute;
+    right: 30px;
+    content: "\f054";
+    color: #fff;
+    transition: all .5s;
+}
+
+li.active.have-children span::after {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.sidebar-menu .have-children > ul {
+    display: none;
+}
+
+.topNewBoxContainer {
+    padding-top: 9px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e9ff2;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 280px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.btnUpload {
+    width: 140px;
+}
+
+.formUpload input {
+    height: 40px;
+    padding: 10px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dropzone.dz-clickable {
+    cursor: pointer
+}
+
+.dropzone {
+    margin-top: 20px;
+    min-height: 150px;
+    border: 1px solid rgba(42, 42, 42, 0.05);
+    background: rgba(204, 204, 204, 0.15);
+    padding: 60px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(43, 43, 43, 0.1);
+    box-shadow: inset 0 0 5px 0 rgba(43, 43, 43, 0.1)
+}
+
+.fContainer:after {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.downloadIconTop {
+    margin-right: 10px;
+}
+
+.publicD {
+    min-height: 250px !important;
+}
+
+.downloadTable td {
+    padding: 15px !important;
+}
+
+.trhead {
+    font-weight: bold;
+}
+
+.m-t-20 {
+    margin-top: 20px
+}
+
+
+.dcPic {
+    text-align: right;
+}
+
+.blueBox {
+    padding: 20px;
+    text-align: center;
+}
+
+    .blueBox a {
+        color: #333;
+    }
+
+.newBoxContainer {
+    padding-top: 15px;
+}
+
+.newBoxContainerDemo {
+    padding-top: 15px;
+}
+
+.finchildren {
+    margin-bottom: 20px;
+}
+
+.extendedcard {
+    box-shadow: 10px 10px 8px #e0e0e0;
+    border: none !important;
+    margin: 0 0 15px 15px !important;
+}
+
+.topcard .extendedcard {
+    min-height: 365px !important;
+}
+
+.newBoxContainer .firstChild .extendedcard {
+    margin-left: 30px !important;
+}
+
+.newBoxContainerDemo .firstChild .extendedcard {
+    margin-left: 0px !important;
+}
+
+.extendedcard .card-content {
+    padding: 20px;
+    font-size: 12pt;
+}
+
+.extendedcard .homeW {
+    min-height: 250px;
+}
+
+.card-header2 {
+    color: #fff;
+    text-align: left !important;
+    display: block !important;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.complianceRules {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.calendardbox .card-content {
+    padding: 0 !important;
+}
+
+.iconsBox {
+    padding-bottom: 10px;
+}
+
+.centerFin {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bgCyan {
+    background: #07afc7 !important;
+}
+
+.bgDarkBlue {
+    background: #2a4a73 !important;
+}
+
+.col-containerFix {
+    width: 100%;
+    display: flex;
+}
+
+.menuFix {
+    float: none !important;
+    display: inline-block !important;
+    top: 0 !important;
+    position: relative !important;
+    flex: 1;
+}
+
+.content-body-fix {
+    display: inline-block !important;
+    flex: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.colFix {
+    display: block;
+}
+
+.fl {
+    display: block;
+    float: left;
+}
+
+.iconBox {
+    min-width: 200px;
+    max-width: 25%;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1550px) {
+    .extendedcard .card-content {
+        padding: 20px;
+        font-size: 12pt;
+    }
+
+    .homeW .card-content {
+        min-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .homeW .card-content {
+        min-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .extendedcard .card-content {
+        padding: 20px;
+        font-size: 12pt;
+    }
+
+    .homeW .card-content {
+        min-height: 0;
+    }
+
+
+    .homeWelcome {
+        max-width: 100% !important;
+    }
+
+    .reverseSmall {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .iconBox {
+        min-height: 210px;
+    }
+
+    .topCardCenter {
+        text-align: center;
+    }
+
+        .topCardCenter .dcPic {
+            text-align: center;
+            max-width: 100% !important;
+        }
+
+    .formUploadCont {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .extendedcard {
+        margin: 0 0 15px 30px !important;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .iconBox {
+        min-height: 210px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    .dashboard-side-nav {
+        min-height: 4000px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .iconBox {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .nopadMobile {
+        padding-top: 0 !important;
+    }
+}
+
+/* Added by RedWhale */
+
+.card-height {
+    height: 365px;
+}
+
+.card-height-portal {
+    height: auto
+}
+
+.card-height-portal-dashboard {
+    height: 260px;
+}
+
+.card-height-demo {
+    height: 400px;
+}
+
+.table-head-portal {
+    background-color: #EEEEEE;
+}
+
+@media only screen and (max-width: 1600px) {
+    .card-height {
+        height: 365px;
+    }
+
+    .card-height-portal {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .card-height {
+        height: 600px;
+    }
+
+    .card-height-portal {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .card-height {
+        height: auto;
+    }
+
+    .card-height-portal {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-height: 676px) {
+    .sidebar-menu-fixed {
+        position: absolute;
+        top: 0px;
+    }
+}
