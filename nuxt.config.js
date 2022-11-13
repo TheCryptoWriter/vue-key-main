@@ -66,6 +66,7 @@ export default {
   */
   optimizedImages: {
   },
+  target: 'static',
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content')
