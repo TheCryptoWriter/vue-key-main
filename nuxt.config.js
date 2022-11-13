@@ -55,7 +55,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
+  modules: ['@nuxt/content'
   ],
   content: {
     // Options

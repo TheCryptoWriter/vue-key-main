@@ -3,7 +3,6 @@
     <Header />
     <Banner />
     <BlogHome />
-    <Subscribe />
     <Footer />
   </div>
 </template>
