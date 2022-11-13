@@ -65,7 +65,7 @@ export default {
   */
   optimizedImages: {
   },
-
+  target: 'static',
   /*
   ** Build configuration
   */
