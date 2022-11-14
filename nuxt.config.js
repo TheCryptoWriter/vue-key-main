@@ -56,7 +56,8 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxt/content'
+  modules: [
+    '@nuxt/content'
   ],
   content: {
     // Options
@@ -66,7 +67,6 @@ export default {
   */
   optimizedImages: {
   },
-  target: 'static',
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content')

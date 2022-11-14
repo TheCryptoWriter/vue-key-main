@@ -2,7 +2,9 @@
   <div>
     <Header />
     <Banner />
+
     <BlogHome />
+
     <Footer />
   </div>
 </template>
