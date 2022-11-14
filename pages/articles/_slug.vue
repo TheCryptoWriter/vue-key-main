@@ -18,7 +18,6 @@ export default {
       .sortBy("createdAt", "asc")
       .surround(params.slug)
       .fetch();
-
     return {
       article,
       prev,
